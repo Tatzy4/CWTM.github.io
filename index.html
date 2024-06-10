@@ -3,87 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Monster Names</title>
+    <title>Tatzy's Old Horde Rules</title>
     <style>
         body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f4f4f9;
-            margin: 40px;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
             color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
         }
         h1 {
-            text-align: center;
-            color: #5a5a5a;
+            color: #2c3e50;
         }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        li {
-            background-color: #fff;
-            border: 1px solid #ddd;
-            margin-top: 8px;
-            padding: 12px 20px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-            transition: all 0.3s ease-in-out;
-            position: relative; /* Positioning related to the tooltip */
-        }
-        li:hover {
-            transform: scale(1.03);
-            background-color: #e9e9ff;
-        }
-        .tooltip {
-            visibility: hidden;
-            width: 120px;
-            background-color: black;
-            color: #fff;
-            text-align: center;
-            border-radius: 6px;
-            padding: 5px 0;
-            position: absolute;
-            z-index: 1;
-            bottom: 125%;
-            left: 50%;
-            margin-left: -60px; /* Use half of the width (120px/2 = 60px) */
-            opacity: 0;
-            transition: opacity 0.3s;
-        }
-        .tooltip::after {
-            content: "";
-            position: absolute;
-            top: 100%;
-            left: 50%;
-            margin-left: -5px;
-            border-width: 5px;
-            border-style: solid;
-            border-color: black transparent transparent transparent;
-        }
-        li:hover .tooltip {
-            visibility: visible;
-            opacity: 1;
-        }
-        .tooltip img {
-            width: 100%; /* Adjust based on your needs */
+        img {
+            width: 100%;
             height: auto;
+            border-radius: 10px 10px 0 0;
         }
     </style>
 </head>
 <body>
-    <h1>Monster Names</h1>
-    <ul>
-        <li>Dog <span class="tooltip"><img src="https://static.wikia.nocookie.net/content-warning-landfall/images/2/26/Machine_Gun_Dog.png/revision/latest/scale-to-width-down/1000?cb=20240407010631" alt="Dog"></span></li>
-        <li>EyeGuy <span class="tooltip"><img src="https://static.wikia.nocookie.net/content-warning-landfall/images/0/06/Bird_Brain.webp/revision/latest?cb=20240404052837" alt="EyeGuy"></span></li>
-        <li>Spider <span class="tooltip"><img src="https://static.wikia.nocookie.net/content-warning-landfall/images/8/84/Spider.png/revision/latest?cb=20240402161342" alt="Spider"></span></li>
-        <li>Larva <span class="tooltip"><img src="https://static.wikia.nocookie.net/content-warning-landfall/images/e/ee/Grabber.png/revision/latest?cb=20240404061306" alt="Larva"></span></li>
-        <li>Bombs <span class="tooltip"><img src="https://static.wikia.nocookie.net/content-warning-landfall/images/a/a4/Bomber_man.webp/revision/latest?cb=20240404052058" alt="Bombs"></span></li>
-        <li>Knifo <span class="tooltip"><img src="https://static.wikia.nocookie.net/content-warning-landfall/images/3/32/Picture_of_the_ghost_doll_from_the_trailer.png/revision/latest?cb=20240402041440" alt="Knifo"></span></li>
-        <li>Zombie/Zombe <span class="tooltip"><img src="" alt="Mr. Snail"></span></li>
-        <li>Jello <span class="tooltip"><img src="" alt="Glutek"></span></li>
-        <li>Flicker <span class="tooltip"><img src="" alt="flicky dicky"></span></li>
-        <li>Snatcho <span class="tooltip"><img src="" alt="snatch"></span></li>
-        <li>Slurper <span class="tooltip"><img src="" alt="slurp"></span></li>
-        <li>Mouth <span class="tooltip"><img src="" alt="mout"></span></li>
-        <li>Ear <span class="tooltip"><img src="" alt="er"></span></li>
-    </ul>
+    <div class="container">
+        <img src="https://cdn.discordapp.com/attachments/1249742304147669131/1249750167163244554/image.png?ex=6668700b&is=66671e8b&hm=bdc7e3e8b3a7bdbfa194afb19941a901e0a37bd58afb6b84addce44d9a6799f4&" alt="Tatzy's Old Horde">
+        <h1>Welcome to Tatzy's Old Horde</h1>
+        <p>There are no rules, just have fun.</p>
+        <p>And don't annoy Tatzy, okok?</p>
+    </div>
 </body>
 </html>
